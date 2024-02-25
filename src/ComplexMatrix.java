@@ -47,7 +47,7 @@ public class ComplexMatrix {
             }
             stringBuilder.append(row != h - 1 ? "\n" : "");
         }
-        stringBuilder.append("]");
+        stringBuilder.append("] ");
         return stringBuilder.toString();
     }
 
